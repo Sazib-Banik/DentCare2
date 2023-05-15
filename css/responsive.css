@@ -1,0 +1,155 @@
+@media (max-width: 1399.98px) {
+  /* details-part start */
+  .make-appoinment .mobile-no {
+    font-size: 35px;
+  }
+  /* certified and appoinment part start */
+  .certified-part h2 {
+    font-size: 50px;
+  }
+  /* our-service-part start */
+  .ad {
+    padding: 32px 60px;
+  }
+  /* pricing-part start */
+  #pricing-part .owl-nav .owl-next {
+    right: -571px;
+  }
+  /* testimonial-part start */
+  #testimonial-part .owl-nav .owl-next {
+    right: -606px;
+  }
+  /* doctor-part start */
+  #doctor-part .nav-btn {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1199.98px) {
+  /* details part start */
+  .make-appoinment .mobile-no {
+    font-size: 30px;
+  }
+  .make-appoinment,
+  .search-doctor-box {
+    min-height: 288px;
+  }
+
+  /* about-us-part start */
+  #about-part h2 {
+    font-size: 45px;
+  }
+  /* certified and appoinment part start */
+  .certified-part h2 {
+    font-size: 48px;
+  }
+  /* our-service-part start */
+  #pricing-part h2,
+  #service-part h2 {
+    font-size: 48px;
+  }
+  .ad {
+    padding: 23px 32px;
+  }
+  .ad span {
+    font-size: 32px;
+  }
+  /* appionment-part start */
+  .appoinment-content {
+    padding: 40px 46px;
+  }
+  /* pricing-part start */
+  #pricing-part .owl-nav .owl-next {
+    right: -468px;
+  }
+  /* testimonial-part start */
+  #testimonial-part .owl-nav .owl-next {
+    right: -486px;
+  }
+  .testimonial-content .slider h4::before {
+    width: 27%;
+  }
+  /* doctor-part start */
+  #doctor-part h2 {
+    font-size: 37px;
+    margin-bottom: 35px;
+  }
+  #doctor-part .nav-btn {
+    margin-bottom: 25px;
+  }
+  .social-links {
+    padding: 5px;
+    top: -28px;
+  }
+  .social-links span i {
+    font-size: 18px;
+  }
+  .dr-details h3 {
+    margin-top: 25px;
+  }
+  .dr-details h5 {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  /* hero-part start */
+  #hero-part .carousel-caption h2 {
+    font-size: 65px;
+  }
+  /* details-part start */
+  .make-appoinment h4,
+  .search-doctor-box h4,
+  .opening-hours-box h4 {
+    text-align: center;
+  }
+  .make-appoinment .mobile-no {
+    font-size: 25px;
+  }
+  /* about-part start */
+  #about-part h2 {
+    font-size: 35px;
+  }
+  #about-part h2 + p {
+    font-size: 19px;
+  }
+  #about-part ul li {
+    font-size: 18px;
+  }
+  #about-part img {
+    height: 410px;
+  }
+  /* certified and appoinment part start */
+  .appoinment-part h3,
+  .certified-part h2 {
+    font-size: 30px;
+  }
+  .appoinment-part {
+    padding: 50px 30px;
+  }
+  /* pricing-part start */
+  #pricing-part h2,
+  #service-part h2 {
+    font-size: 36px;
+  }
+  #pricing-part .owl-nav .owl-next {
+    right: -626px;
+  }
+  /* appionment-part start */
+  .appoinment-content h2 {
+    font-size: 46px;
+  }
+  /* testimonial-part start */
+  #testimonial-part .owl-nav .owl-next {
+    right: -446px;
+  }
+  .testimonial-content .slider h4::before {
+    width: 30%;
+  }
+  /* doctor-part start */
+  #doctor-part .nav-btn {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
+}

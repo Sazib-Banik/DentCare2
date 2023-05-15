@@ -1,0 +1,611 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: none;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.subheading {
+  text-transform: uppercase;
+  position: relative;
+  color: #06a3da;
+  font-size: 20px;
+  display: inline-block;
+}
+.subheading::before {
+  position: absolute;
+  content: "";
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #06a3da;
+}
+.subheading::after {
+  position: absolute;
+  content: "";
+  right: -105px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 3px;
+  background-color: #f57e57;
+}
+/* top-header part start */
+header {
+  background-color: #eef9ff;
+}
+header .left-top-header p {
+  color: #6b6a75;
+  font-size: 14px;
+}
+header .left-top-header p i {
+  color: #06a3da;
+}
+header .right-top-header div {
+  background-color: #06a3da;
+  padding: 0 40px;
+  font-size: 16px;
+}
+header .right-top-header div:first-child {
+  border-right: 1px solid #ffffff;
+  position: relative;
+}
+/* top-header part end */
+/* navbar part start */
+.navbar-part .navbar-brand h1 {
+  color: #06a3da;
+  font-weight: 700;
+}
+.navbar-part .nav-item {
+  margin-left: 20px;
+}
+.navbar-part .nav-link {
+  font-size: 18px;
+  color: #091e3e;
+  font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  top: 65px;
+}
+.navbar-part .navbar-nav .nav-link:hover,
+.navbar-part .navbar-nav .nav-link.active {
+  color: #06a3da;
+}
+.nav-btn {
+  padding: 10px 35px !important;
+  background-color: #06a3da;
+  display: inline-block;
+  color: #ffffff !important;
+  border: none;
+  transition: 1s;
+}
+.nav-btn:hover {
+  background-color: #f57e57;
+}
+/* navbar part end */
+/* hero part start */
+#hero-part {
+  z-index: 10;
+}
+#hero-part .carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, 0.85);
+  z-index: 1;
+}
+#hero-part .carousel-caption .carousel-content {
+  max-width: 900px;
+}
+#hero-part .carousel-caption h5 {
+  font-size: 20px;
+}
+#hero-part .carousel-caption h2 {
+  font-size: 80px;
+  font-weight: 800;
+}
+#hero-part a {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 15px 40px !important;
+}
+/* hero part end */
+/* details part start */
+#details-part {
+  color: #ffffff;
+  position: relative;
+  margin-top: -90px;
+  z-index: 111;
+}
+.opening-hours-box {
+  background-color: #06a3da;
+}
+.opening-hours-box .nav-btn {
+  background-color: #f1faff;
+  color: #081a35 !important;
+  border: none;
+  transition: all 1s;
+  width: 100%;
+}
+.opening-hours-box .nav-btn:hover {
+  background-color: #f57e57;
+}
+.search-doctor-box {
+  background-color: #081a35;
+  min-height: 336px;
+}
+.search-doctor-box .nav-btn {
+  width: 100%;
+}
+.make-appoinment {
+  background-color: #f57e57;
+  min-height: 336px;
+}
+.make-appoinment p {
+  font-size: 18px;
+}
+.make-appoinment .mobile-no {
+  font-size: 40px;
+  font-weight: 700;
+}
+/* details part end */
+/* about us part start */
+#about-part h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #081a35;
+}
+#about-part p {
+  font-size: 18px;
+  color: #6b6a75;
+  font-weight: 400;
+}
+#about-part h2 + p {
+  font-size: 28px;
+  color: #6b6a75;
+  font-weight: 500;
+}
+#about-part ul li {
+  font-size: 20px;
+  color: #081a35;
+  font-weight: 600;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  position: relative;
+}
+#about-part ul li::before {
+  position: absolute;
+  content: "\f058";
+  left: -30px;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color: #06a3da;
+}
+#about-part button {
+  font-size: 20px;
+}
+/* about us part end */
+/* certified and appoinment part start */
+#certified-appoinment-part {
+  background-image: url("../image/carousel-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#certified-appoinment-part .overlay {
+  background: rgba(9, 30, 62, 0.85);
+}
+.certified-part h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.certified-part p {
+  font-size: 18px;
+}
+.appoinment-part {
+  padding: 70px 30px;
+  background-color: rgba(6, 162, 218, 0.5);
+}
+.appoinment-part h3 {
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+.appoinment-part .form-select,
+.appoinment-part .form-control {
+  padding: 10px 15px;
+}
+
+.appoinment-part button.nav-btn {
+  background-color: #081a35;
+  padding: 15px 40px !important;
+  font-weight: 500;
+}
+/* certified and appoinment part end */
+/* our service part start */
+#service-part {
+  padding: 70px 0;
+}
+#pricing-part h2,
+#service-part h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#service-part figcaption {
+  text-align: center;
+  background-color: #eef9ff;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.ad {
+  background-color: #06a3da;
+  color: #ffffff;
+  padding: 45px 60px;
+  text-align: center;
+}
+.ad h4 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.ad p {
+  font-size: 18px;
+}
+.ad span {
+  font-size: 36px;
+  font-weight: 700;
+}
+/* our service part end */
+/* newsletter part start */
+.newsletter-part {
+  z-index: 1;
+  position: relative;
+}
+.newsletter-part .container {
+  background-color: #06a3da;
+}
+.newsletter-part span {
+  background-color: #081a35;
+  font-weight: 600;
+}
+.newsletter-part input:focus {
+  outline: none;
+  border: none;
+}
+/* newsletter part end */
+/* appoinment-part start */
+#appoinment_part {
+  background-image: url("../image/carousel-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.appoinment-content {
+  background-color: rgba(6, 162, 218, 0.8);
+  padding: 50px 90px;
+}
+.appoinment-content h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.appoinment-content p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.appoinment-content a.nav-btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 1s;
+  color: #fff;
+  background-color: #091e3e;
+}
+.appoinment-content a.nav-btn:hover {
+  background-color: #ffffff;
+  color: #081a35 !important;
+}
+/* appoinment-part end */
+/* pricing-part start */
+#pricing-part p {
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+#pricing-part .call-appoinment {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+#pricing-part span {
+  font-size: 35px;
+  font-weight: 500;
+}
+#pricing-part .card {
+  border-radius: 0 !important;
+  border: none;
+  border-bottom: 1px solid #06a3da;
+  background-color: #eef9ff;
+}
+#pricing-part .card .card-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #091e3e;
+}
+.price-card-list {
+  margin: 10px 0;
+}
+.price-card-list li {
+  list-style-type: none;
+  margin: 7px 0;
+  font-size: 18px;
+  color: #6b6a75;
+}
+#pricing-part i {
+  color: #06a3da;
+  font-size: 18px;
+  font-weight: 700;
+}
+#pricing-part .price-box {
+  left: 50%;
+  top: -25px;
+  transform: translateX(-50%);
+  font-size: 26px;
+  font-weight: 700;
+  color: #06a3da;
+  background-color: #eef9ff;
+  padding: 10px 15px;
+}
+#pricing-part .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#pricing-part .owl-nav button {
+  background-color: #06a3da;
+  padding: 5px;
+  width: 35px;
+}
+#pricing-part .owl-nav .owl-next {
+  position: relative;
+  right: -676px;
+}
+#pricing-part .card a.nav-btn {
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+}
+#pricing-part .owl-carousel > div {
+  padding: 40px 0;
+}
+/* pricing-part end */
+/* testimonial-part start */
+#testimonial-part {
+  background-image: url("../image/carousel-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.testimonial-content {
+  background-color: #06a3da;
+  padding: 50px 60px;
+}
+.testimonial-content .slider img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+.testimonial-content .slider p {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.testimonial-content .slider h4 {
+  font-size: 25px;
+  margin-top: 15px;
+  position: relative;
+}
+.testimonial-content .slider h4::before {
+  position: absolute;
+  content: "";
+  width: 22%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: -10px;
+}
+#testimonial-part .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#testimonial-part .owl-nav button {
+  background-color: #f57e57;
+  padding: 5px;
+  width: 35px;
+  height: 55px;
+}
+#testimonial-part .owl-nav button span {
+  font-size: 25px;
+}
+#testimonial-part .owl-nav .owl-prev {
+  position: relative;
+  left: -60px;
+}
+#testimonial-part .owl-nav .owl-next {
+  position: relative;
+  right: -726px;
+}
+/* testimonial-part end */
+/* doctor-part start */
+#doctor-part h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+#doctor-part .nav-btn {
+  padding: 15px 35px !important;
+  background-color: #06a3da;
+  font-size: 20px;
+  margin-bottom: 85px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+#doctor-part .nav-btn:hover {
+  background-color: #f57e57;
+  color: #081a35 !important;
+  font-weight: 600;
+}
+.doctor-part-left {
+  background-color: #eef9ff;
+}
+.single-dr {
+  background-color: #eef9ff;
+}
+.social-links {
+  top: -50px;
+  background-color: #eef9ff;
+  padding: 12px;
+}
+.social-links span {
+  margin: 0 1px;
+  background-color: #06a3da;
+  display: inline-block;
+  padding: 6px;
+  transition: 0.5s;
+}
+.social-links span:hover {
+  background-color: #f57e57;
+}
+.social-links span i {
+  font-size: 20px;
+  color: #fff;
+}
+.social-links span:hover i {
+  color: #081a35;
+}
+.dr-details h3 {
+  margin-top: 50px;
+}
+.dr-details h5 {
+  font-weight: 300;
+  color: #06a3da;
+  padding-bottom: 30px;
+}
+/* doctor-part end */
+/* footer part start */
+.footer-part {
+  background-color: #091e3e;
+  padding: 100px 0px 70px 0px;
+  margin-top: -85px;
+  z-index: 0;
+}
+.footer-part .links {
+  color: #ffffff;
+}
+.footer-part .social-link h4,
+.footer-part .links h4 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.footer-part .links ul li {
+  list-style: none;
+  margin-left: 25px;
+  padding: 5px 0;
+  position: relative;
+  transition: 1s;
+}
+.footer-part .links ul li::before {
+  position: absolute;
+  content: "\f061";
+  left: -25px;
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  color: #06a3da;
+}
+.footer-part .links ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.footer-part .links ul li a:hover {
+  color: #f57e57;
+}
+.footer-part .links address p {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+.footer-part .links address p i {
+  color: #06a3da;
+}
+.footer-part .social-link li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.footer-part .social-link li a {
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #06a3da;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.footer-part .social-link li:hover a {
+  background-color: #f57e57;
+  color: #081a35;
+}
+/* footer part end */
+
+/* farhad pricing section */
+/* .price-carousel .owl-nav {
+  position: absolute;
+  width: calc(100% + 45px);
+  height: 45px;
+  top: calc(50% - 22.5px);
+  left: -22.5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.price-carousel:hover .owl-nav {
+  opacity: 1;
+}
+
+.price-carousel .owl-nav .owl-prev,
+.price-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #06a3da;
+  border-radius: 2px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.price-carousel .owl-nav .owl-prev:hover,
+.price-carousel .owl-nav .owl-next:hover {
+  background: #f57e57;
+} */
+/* slide part end */
